@@ -633,37 +633,103 @@ html.lenis body {
 }
 
 /* ---------- 404 page ---------- */
+
 .not-found {
     min-height: 100svh;
     display: grid;
-    place-items: start center;
-    padding: var(--start) var(--gutter) var(--footer-h);
+    place-items: center;
+    padding: 2rem var(--gutter);
+    background: var(--bg);
+    color: var(--text);
     animation: not-found-in 0.7s var(--ease) both;
+}
+
+.not-found-content {
+    width: 100%;
+    max-width: var(--column);
+    text-align: center;
 }
 
 .not-found-code {
     font-family: var(--font-display);
     font-weight: 700;
-    font-size: clamp(5rem, min(26vw, 22svh), 11rem);
-    line-height: 0.9;
-    letter-spacing: -0.04em;
-    margin-bottom: clamp(0.75rem, 2.5svh, 1.5rem);
+    font-size: clamp(8rem, 28vw, 19rem);
+    line-height: 0.8;
+    letter-spacing: -0.09em;
+    margin: 0 0 clamp(2rem, 5vw, 3.5rem);
 }
 
-.not-found-path {
-    font-family: var(--font-display);
-    font-size: 0.92em;
-    overflow-wrap: anywhere;
+.not-found-message {
+    max-width: 28rem;
+    margin: 0 auto;
+    color: var(--muted);
+    font-family: var(--font-body);
+    font-size: clamp(0.85rem, 2vw, 1rem);
+    line-height: 1.7;
+}
+
+.not-found-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 2rem;
+    padding: 0.85rem 1.5rem;
+    border: 1px solid var(--text);
+    background: transparent;
     color: var(--text);
+    font: inherit;
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.3s var(--ease), color 0.3s var(--ease);
 }
 
-.not-found-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem 2.5rem;
-    margin-top: clamp(1.25rem, 4svh, 2.25rem);
-    font-size: 0.9375rem;
-    letter-spacing: 0.04em;
+.not-found-button:hover {
+    background: var(--text);
+    color: var(--bg);
+}
+
+.not-found-button span {
+    font-size: 1.2rem;
+    transition: transform 0.3s var(--ease);
+}
+
+.not-found-button:hover span {
+    transform: translateX(-4px);
+}
+
+.not-found-button:focus-visible {
+    outline: 2px solid var(--text);
+    outline-offset: 5px;
+}
+
+@keyframes not-found-in {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 40rem) {
+    .not-found-code {
+        font-size: clamp(7rem, 35vw, 12rem);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .not-found {
+        animation: none;
+    }
+
+    .not-found-button,
+    .not-found-button span {
+        transition: none;
+    }
 }
 
 @keyframes not-found-in {
