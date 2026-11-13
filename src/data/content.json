@@ -1,0 +1,100 @@
+{
+    "home": {
+        "title": "Hey, I'm Saurab",
+        "paragraphs": [
+            "I'm a web developer who loves exploring how things work behind the scenes. I enjoy taking a rough idea, figuring out the details, and slowly building it into something real.",
+            "My time goes into writing code, experimenting with new tech, and learning by doing. I'm driven by curiosity and enjoy the constant process of improving my craft.",
+            "Away from the keyboard, you'll usually find me playing video games, cooking or brainstorming my next project.",
+            "Feel free to connect with me on [GitHub](https://github.com/41saurab) or [LinkedIn](https://www.linkedin.com/in/saurab-shrestha-30b705259)!"
+        ]
+    },
+    "projects": [
+        {
+            "title": "Inkline",
+            "tagline": "A multi-author blog platform",
+            "details": "A publishing platform where many authors write and categorise posts, and readers comment, like and bookmark. Built as a modular REST API where people can only edit their own content."
+        },
+        {
+            "title": "Marketa",
+            "tagline": "A full-stack ecommerce marketplace",
+            "details": "A marketplace for customers, sellers and admins with a persistent cart, checkout with tax and service charges, order tracking, reviews and an admin dashboard."
+        },
+        {
+            "title": "Threadly",
+            "tagline": "A real-time chat app",
+            "details": "A messaging app with instant delivery, typing indicators and online presence. Chat history is saved across sessions and devices over secured WebSocket connections."
+        },
+        {
+            "title": "ShortNPay",
+            "tagline": "A URL shortener with payments",
+            "details": "A team project for shortening and sharing links without signing up, with fast redirects and Stripe payments for paid features."
+        }
+    ],
+    "about": [
+        {
+            "title": "Skills",
+            "tagline": "Languages, frontend, backend, databases and tools",
+            "type": "facts",
+            "items": [
+                { "label": "Languages", "value": "JavaScript, TypeScript" },
+                {
+                    "label": "Frontend",
+                    "value": "React.js, Next.js, Tailwind CSS, ShadCN UI, TanStack Router, TanStack Query"
+                },
+                { "label": "Backend", "value": "Node.js, Express.js, NestJS" },
+                { "label": "Databases", "value": "MongoDB, PostgreSQL" },
+                { "label": "Tools", "value": "Git, GitHub, Postman, VS Code" },
+                {
+                    "label": "Soft skills",
+                    "value": "Strong communication, leadership, teamwork, time management"
+                }
+            ]
+        },
+        {
+            "title": "Experience",
+            "tagline": "Full-stack internship and freelance frontend work",
+            "type": "entries",
+            "items": [
+                {
+                    "heading": "Full-Stack Developer, Avyanta Tech (Internship)",
+                    "meta": "Jul 2026 – Oct 2026",
+                    "text": "Built responsive, reusable interfaces and REST APIs on PostgreSQL, including authentication, CRUD, pagination, filtering and role-based access control, in a Git-based team workflow."
+                },
+                {
+                    "heading": "Frontend Developer, Crewvator (Freelance)",
+                    "meta": "May 2026 – Aug 2026",
+                    "text": "Built responsive, reusable interfaces integrated with ASP.NET Core REST APIs backed by PostgreSQL, working with backend developers on authentication, CRUD, pagination, filtering and role-based access control."
+                }
+            ]
+        },
+        {
+            "title": "Education",
+            "tagline": "Bsc. CSIT at Central Campus of Technology",
+            "type": "entries",
+            "items": [
+                {
+                    "heading": "Bsc. CSIT",
+                    "meta": "2022 – Present",
+                    "text": "Central Campus of Technology, Dharan"
+                },
+                {
+                    "heading": "10+2",
+                    "meta": "2021 – 2022",
+                    "text": "Dharan Higher Secondary School"
+                }
+            ]
+        },
+        {
+            "title": "Certificates",
+            "tagline": "MERN Stack Web Development",
+            "type": "entries",
+            "items": [
+                {
+                    "heading": "MERN Stack Web Development",
+                    "meta": "Aug – Nov 2024",
+                    "text": "Broadway Infosys Pvt. Ltd."
+                }
+            ]
+        }
+    ]
+}

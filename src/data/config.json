@@ -1,0 +1,16 @@
+{
+    "scroll": {
+        "perPage": 0.55,
+        "wheelMultiplier": 1.4,
+        "lerp": 0.14,
+        "snapMin": 0.2,
+        "snapMax": 0.5,
+        "snapDelay": 0.02,
+        "gotoDuration": 0.9
+    },
+    "routes": [
+        { "path": "/", "title": "Saurab Shrestha" },
+        { "path": "/projects", "title": "Projects | Saurab Shrestha" },
+        { "path": "/about", "title": "About | Saurab Shrestha" }
+    ]
+}
