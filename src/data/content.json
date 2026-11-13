@@ -39,15 +39,11 @@
                 { "label": "Languages", "value": "JavaScript, TypeScript" },
                 {
                     "label": "Frontend",
-                    "value": "React.js, Next.js, Tailwind CSS, ShadCN UI, TanStack Router, TanStack Query"
+                    "value": "React.js, Next.js"
                 },
                 { "label": "Backend", "value": "Node.js, Express.js, NestJS" },
                 { "label": "Databases", "value": "MongoDB, PostgreSQL" },
-                { "label": "Tools", "value": "Git, GitHub, Postman, VS Code" },
-                {
-                    "label": "Soft skills",
-                    "value": "Strong communication, leadership, teamwork, time management"
-                }
+                { "label": "Tools", "value": "Git, GitHub, Postman, VS Code" }
             ]
         },
         {
@@ -76,11 +72,6 @@
                     "heading": "Bsc. CSIT",
                     "meta": "2022 – Present",
                     "text": "Central Campus of Technology, Dharan"
-                },
-                {
-                    "heading": "10+2",
-                    "meta": "2021 – 2022",
-                    "text": "Dharan Higher Secondary School"
                 }
             ]
         },
@@ -91,7 +82,7 @@
             "items": [
                 {
                     "heading": "MERN Stack Web Development",
-                    "meta": "Aug – Nov 2024",
+                    "meta": "Aug 2024 – Nov 2024",
                     "text": "Broadway Infosys Pvt. Ltd."
                 }
             ]
