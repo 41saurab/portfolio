@@ -48,17 +48,15 @@
         },
         {
             "title": "Experience",
-            "tagline": "Full-stack internship and freelance frontend work",
+            "tagline": "Full-stack and freelance frontend work",
             "type": "entries",
             "items": [
                 {
-                    "heading": "Full-Stack Developer, Avyanta Tech (Internship)",
-                    "meta": "Jul 2026 – Oct 2026",
+                    "heading": "Full-Stack Developer, Avyanta Tech",
                     "text": "Built responsive, reusable interfaces and REST APIs on PostgreSQL, including authentication, CRUD, pagination, filtering and role-based access control, in a Git-based team workflow."
                 },
                 {
-                    "heading": "Frontend Developer, Crewvator (Freelance)",
-                    "meta": "May 2026 – Aug 2026",
+                    "heading": "Frontend Developer, Crewvator",
                     "text": "Built responsive, reusable interfaces integrated with ASP.NET Core REST APIs backed by PostgreSQL, working with backend developers on authentication, CRUD, pagination, filtering and role-based access control."
                 }
             ]
