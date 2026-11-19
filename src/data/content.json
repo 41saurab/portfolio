@@ -53,11 +53,11 @@
             "items": [
                 {
                     "heading": "Full-Stack Developer, Avyanta Tech",
-                    "text": "Built responsive, reusable interfaces and REST APIs on PostgreSQL, including authentication, CRUD, pagination, filtering and role-based access control, in a Git-based team workflow."
+                    "text": "Developed responsive frontend interfaces and backend functionality, implementing REST APIs, PostgreSQL database operations, authentication, CRUD features, pagination, filtering, and role-based access control."
                 },
                 {
                     "heading": "Frontend Developer, Crewvator",
-                    "text": "Built responsive, reusable interfaces integrated with ASP.NET Core REST APIs backed by PostgreSQL, working with backend developers on authentication, CRUD, pagination, filtering and role-based access control."
+                    "text": "Built responsive and reusable UI components using modern frontend technologies, integrated them with ASP.NET Core REST APIs, and collaborated with backend developers to deliver authentication and data-driven features."
                 }
             ]
         },
